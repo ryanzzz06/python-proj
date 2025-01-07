@@ -63,7 +63,7 @@ def math_challenge_prime():
         print("Incorrect! the correct answer is", nearest_prime(n))
         return False
 
-def math_challenge:
+def math_challenge():
     challenges=[math_challenge_factorial, math_challenge_equation, math_challenge_prime]
     challenge=challenges[randint(0,len(challenges)-1)]
     challenge()
